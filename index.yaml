@@ -1,10 +1,26 @@
 apiVersion: v1
 entries:
+  base:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-10-16T19:00:43.920648296+02:00"
+    dependencies:
+    - name: common
+      repository: https://nimbushubin.github.io/helmcharts
+      version: 0.1.0
+    description: A production-ready Helm chart base template
+    digest: 227577a838962d75152d32c5f8e78a6181bd9a9aa05c30ac1763e7016d200d06
+    maintainers:
+    - name: NimbusHub.in
+    name: base
+    urls:
+    - https://nimbushubin.github.io/helmcharts/base-0.1.0.tgz
+    version: 0.1.0
   common:
   - apiVersion: v2
-    created: "2023-10-02T18:51:36.746289+05:30"
+    created: "2023-10-16T19:00:43.921516172+02:00"
     description: Library chart for Sunbird
-    digest: eff7f52494303fe3f6142902b4d59fdbf8756a5a0fcc8abc27d585c4ad5660e9
+    digest: 440fbd26af71e0d3394269107ea162e66f6c0106a9a03bbbb2656d66098e4a49
     keywords:
     - common
     - helper
@@ -15,6 +31,6 @@ entries:
     name: common
     type: library
     urls:
-    - https://nimbushubin.github.io/common-helm-templates/common-0.1.0.tgz
+    - https://nimbushubin.github.io/helmcharts/common-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-02T18:51:36.745403+05:30"
+generated: "2023-10-16T19:00:43.9189673+02:00"
